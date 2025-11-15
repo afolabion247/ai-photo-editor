@@ -74,8 +74,12 @@ ai-photo-editor/
 - **Language**: TypeScript 5.8.2
 - **Build Tool**: Vite 6.2.0
 - **Styling**: Tailwind CSS (CDN)
-- **AI Service**: Google Gemini 2.5 Flash
+- **AI Service**: Google Gemini 2.0 Flash (Experimental)
 - **Deployment**: Vercel
+
+## Recent Updates
+
+✅ **Model Updated**: Changed from `gemini-2.5-flash-image` to `gemini-2.0-flash-exp` for better API quota limits (1,500 requests/day vs very limited)
 
 ## Next Steps
 

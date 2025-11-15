@@ -8,7 +8,7 @@ A powerful AI-powered photo editing application built with React, TypeScript, an
 
 ## Features
 
-- 🎨 AI-powered image editing using Google Gemini 2.5 Flash
+- 🎨 AI-powered image editing using Google Gemini 2.0 Flash
 - 📸 Drag-and-drop image upload
 - ✨ Natural language prompts for edits
 - 🖼️ Before/after comparison view
@@ -113,9 +113,18 @@ ai-photo-editor/
 
 MIT
 
+## Troubleshooting
+
+Having issues? Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for common problems and solutions, including:
+- API quota exceeded errors
+- Environment variable issues
+- Build and deployment problems
+- Image upload issues
+
 ## Support
 
 For issues and questions:
-- Check [DEPLOYMENT.md](DEPLOYMENT.md) for deployment help
-- Review [Gemini API docs](https://ai.google.dev/docs)
+- Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for common issues
+- Review [DEPLOYMENT.md](DEPLOYMENT.md) for deployment help
+- See [Gemini API docs](https://ai.google.dev/docs)
 - Open an issue on GitHub
