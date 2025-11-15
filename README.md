@@ -8,7 +8,7 @@ A powerful AI-powered photo editing application built with React, TypeScript, an
 
 ## Features
 
-- 🎨 AI-powered image editing using Google Gemini 2.0 Flash
+- 🎨 AI-powered image editing using Google Gemini 2.0 (Image Generation)
 - 📸 Drag-and-drop image upload
 - ✨ Natural language prompts for edits
 - 🖼️ Before/after comparison view

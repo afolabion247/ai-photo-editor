@@ -34,10 +34,10 @@ The free tier resets daily. Wait 24 hours and try again.
 The app now uses `gemini-2.0-flash-exp` which has better free tier limits than the preview models.
 
 **Free Tier Limits (as of 2024):**
-- **gemini-2.0-flash-exp**: 
-  - 15 requests per minute
-  - 1,500 requests per day
-  - 1 million tokens per minute
+- **gemini-2.0-flash-exp-image-generation**: 
+  - Supports image generation
+  - Better quota than preview models
+  - Experimental but stable
 
 - **gemini-2.5-flash-image** (preview):
   - Very limited quota
@@ -228,15 +228,15 @@ type .env.local
 
 ## Model Comparison
 
-| Model | Free Tier RPM | Free Tier RPD | Image Output | Status |
-|-------|---------------|---------------|--------------|--------|
-| gemini-2.0-flash-exp | 15 | 1,500 | ✅ Yes | Stable |
-| gemini-2.5-flash-image | Very Limited | Very Limited | ✅ Yes | Preview |
-| gemini-1.5-flash | 15 | 1,500 | ❌ No | Stable |
-| gemini-1.5-pro | 2 | 50 | ❌ No | Stable |
+| Model | Image Output | Status | Quota |
+|-------|--------------|--------|-------|
+| gemini-2.0-flash-exp-image-generation | ✅ Yes | Experimental | Better |
+| gemini-2.5-flash-image | ✅ Yes | Preview | Very Limited |
+| gemini-2.0-flash-exp | ❌ No | Experimental | Good |
+| gemini-1.5-flash | ❌ No | Stable | Good |
 
-**Recommendation:** Use `gemini-2.0-flash-exp` for best balance of features and quota.
+**Recommendation:** Use `gemini-2.0-flash-exp-image-generation` for image editing with better quota.
 
 ---
 
-**Note:** This app now uses `gemini-2.0-flash-exp` by default for better quota limits.
+**Note:** This app now uses `gemini-2.0-flash-exp-image-generation` by default for image generation with better quota limits.

@@ -2,14 +2,14 @@
 
 ## ✅ FIXED: Model Updated
 
-Your app now uses `gemini-2.0-flash-exp` instead of `gemini-2.5-flash-image`.
+Your app now uses `gemini-2.0-flash-exp-image-generation` instead of `gemini-2.5-flash-image`.
 
 ### Why This Helps:
 
 | Model | Daily Limit | Minute Limit | Status |
 |-------|-------------|--------------|--------|
 | ~~gemini-2.5-flash-image~~ | Very Low | Very Low | Preview (Limited) |
-| **gemini-2.0-flash-exp** ✅ | 1,500 | 15 | Stable (Better) |
+| **gemini-2.0-flash-exp-image-generation** ✅ | Higher | Higher | Experimental (Better) |
 
 ## What Changed:
 
@@ -19,8 +19,8 @@ Your app now uses `gemini-2.0-flash-exp` instead of `gemini-2.5-flash-image`.
 // OLD (Limited Quota)
 model: 'gemini-2.5-flash-image'
 
-// NEW (Better Quota) ✅
-model: 'gemini-2.0-flash-exp'
+// NEW (Better Quota + Image Support) ✅
+model: 'gemini-2.0-flash-exp-image-generation'
 ```
 
 ## Next Steps:
@@ -54,13 +54,13 @@ npm run build
 - Check billing options
 - Upgrade for higher limits
 
-## Free Tier Limits (gemini-2.0-flash-exp)
+## Free Tier Limits (gemini-2.0-flash-exp-image-generation)
 
-- ✅ **15 requests per minute**
-- ✅ **1,500 requests per day**
-- ✅ **1 million tokens per minute**
+- ✅ **Better quota than preview models**
+- ✅ **Supports image generation**
+- ✅ **More stable than 2.5-flash-image**
 
-This is **much better** than the preview model!
+This model is specifically designed for image generation with better quota!
 
 ## Testing Locally
 
