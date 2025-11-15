@@ -11,7 +11,7 @@ const ai = new GoogleGenAI({ apiKey: API_KEY });
 export const editImageWithPrompt = async (imagePart: Part, prompt: string): Promise<string> => {
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash-exp-image-generation',
+      model: 'imagen-3.0-generate-001',
       contents: {
         parts: [
           imagePart,

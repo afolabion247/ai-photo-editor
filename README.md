@@ -8,7 +8,7 @@ A powerful AI-powered photo editing application built with React, TypeScript, an
 
 ## Features
 
-- 🎨 AI-powered image editing using Google Gemini 2.0 (Image Generation)
+- 🎨 AI-powered image editing using Google Imagen 3.0
 - 📸 Drag-and-drop image upload
 - ✨ Natural language prompts for edits
 - 🖼️ Before/after comparison view
@@ -20,7 +20,7 @@ A powerful AI-powered photo editing application built with React, TypeScript, an
 - **Frontend**: React 19, TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
-- **AI**: Google Gemini API
+- **AI**: Google Imagen 3.0 API
 - **Deployment**: Vercel
 
 ## Quick Start
@@ -28,7 +28,7 @@ A powerful AI-powered photo editing application built with React, TypeScript, an
 ### Prerequisites
 
 - Node.js (v18 or higher)
-- A Google Gemini API key ([Get one here](https://aistudio.google.com/app/apikey))
+- A Google AI API key with Imagen access ([Get one here](https://aistudio.google.com/app/apikey))
 
 ### Local Development
 
@@ -107,7 +107,7 @@ ai-photo-editor/
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `GEMINI_API_KEY` | Your Google Gemini API key | Yes |
+| `GEMINI_API_KEY` | Your Google AI API key (with Imagen access) | Yes |
 
 ## License
 

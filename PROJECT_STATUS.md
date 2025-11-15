@@ -74,15 +74,15 @@ ai-photo-editor/
 - **Language**: TypeScript 5.8.2
 - **Build Tool**: Vite 6.2.0
 - **Styling**: Tailwind CSS (CDN)
-- **AI Service**: Google Gemini 2.0 Flash (Image Generation)
+- **AI Service**: Google Imagen 3.0 (Image Generation)
 - **Deployment**: Vercel
 
 ## Recent Updates
 
-✅ **Model Updated**: Changed from `gemini-2.5-flash-image` to `gemini-2.0-flash-exp-image-generation` for:
-- Better API quota limits
-- Proper image generation support
-- More stable performance
+✅ **Model Updated**: Now using `imagen-3.0-generate-001` (Google's dedicated image generation model):
+- Proper image generation and editing support
+- Gemini models don't support image OUTPUT (only analysis)
+- Imagen is the correct API for image generation
 
 ## Next Steps
 
